@@ -27,16 +27,6 @@ const MonText = styled.Text({
   color: "red"
 });
 
-// const Container = styled.View({
-//   justifyContent: "center",
-//   alignItems: "center",
-//   margin: 50
-// });
-
-// const Description = styled.Text({
-//   color: "hotpink"
-// });
-
 const orange = "#f77754";
 const black = "#2b2726";
 const grey = "#738598";
@@ -74,7 +64,7 @@ class SignInScreen extends React.Component {
     return (
       <SafeAreaView style={{ flex: 1, backgroundColor: orange }}>
         <StatusBar barStyle="light-content" />
-        {this._renderEmotion()}
+        {/* {this._renderEmotion()} */}
         <View style={{ flex: 1, padding: 20, justifyContent: "center" }}>
           <View
             style={{
